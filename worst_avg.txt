@@ -1,0 +1,25 @@
+n, Kasus Terburuk (s), Kasus Rata-rata (s)
+100, 3.50e-06, 3.20e-06
+150, 3.90e-06, 3.40e-06
+200, 4.20e-06, 3.50e-06
+250, 3.00e-06, 3.50e-06
+300, 4.50e-06, 4.20e-06
+350, 2.50e-06, 3.10e-06
+400, 4.00e-06, 3.90e-06
+500, 4.50e-06, 4.10e-06
+
+Analisis:
+1. Kasus Terburuk (Worst Case):
+   - Waktu eksekusi pada kasus terburuk sedikit fluktuatif.
+   - Nilai maksimum waktu kasus terburuk terjadi pada n=300 dan n=500 dengan nilai waktu 4.50e-06.
+   - Nilai minimum terjadi pada n=350 dengan nilai waktu 2.50e-06.
+
+2. Kasus Rata-Rata (Average Case):
+   - Waktu rata-rata cenderung lebih stabil dibandingkan kasus terburuk.
+   - Nilai maksimum waktu rata-rata terjadi pada n=300 dengan nilai waktu 4.20e-06.
+   - Nilai minimum terjadi pada n=100 dengan nilai waktu 3.20e-06.
+
+3. Kesimpulan:
+   - Untuk nilai n kecil, waktu eksekusi baik pada kasus terburuk maupun rata-rata cenderung lebih kecil.
+   - Ketika jumlah elemen meningkat (misalnya pada n=300), waktu eksekusi mengalami kenaikan signifikan, terutama pada kasus terburuk.
+   - Secara umum, waktu rata-rata lebih kecil dibandingkan waktu kasus terburuk untuk setiap nilai n.
